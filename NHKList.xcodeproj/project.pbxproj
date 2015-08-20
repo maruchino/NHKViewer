@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECEE04D71B85AB8900FFCEFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEE04D61B85AB8900FFCEFB /* AppDelegate.swift */; };
+		ECEE04D91B85AB8900FFCEFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEE04D81B85AB8900FFCEFB /* ViewController.swift */; };
+		ECEE04DC1B85AB8900FFCEFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECEE04DA1B85AB8900FFCEFB /* Main.storyboard */; };
+		ECEE04DE1B85AB8900FFCEFB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECEE04DD1B85AB8900FFCEFB /* Images.xcassets */; };
+		ECEE04E11B85AB8900FFCEFB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECEE04DF1B85AB8900FFCEFB /* LaunchScreen.xib */; };
+		ECEE04ED1B85AB8900FFCEFB /* NHKListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEE04EC1B85AB8900FFCEFB /* NHKListTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECEE04E71B85AB8900FFCEFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECEE04C91B85AB8800FFCEFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECEE04D01B85AB8800FFCEFB;
+			remoteInfo = NHKList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECEE04D11B85AB8900FFCEFB /* NHKList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NHKList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECEE04D51B85AB8900FFCEFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECEE04D61B85AB8900FFCEFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECEE04D81B85AB8900FFCEFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECEE04DB1B85AB8900FFCEFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECEE04DD1B85AB8900FFCEFB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ECEE04E01B85AB8900FFCEFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ECEE04E61B85AB8900FFCEFB /* NHKListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NHKListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECEE04EB1B85AB8900FFCEFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECEE04EC1B85AB8900FFCEFB /* NHKListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NHKListTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECEE04CE1B85AB8800FFCEFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECEE04E31B85AB8900FFCEFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECEE04C81B85AB8800FFCEFB = {
+			isa = PBXGroup;
+			children = (
+				ECEE04D31B85AB8900FFCEFB /* NHKList */,
+				ECEE04E91B85AB8900FFCEFB /* NHKListTests */,
+				ECEE04D21B85AB8900FFCEFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECEE04D21B85AB8900FFCEFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECEE04D11B85AB8900FFCEFB /* NHKList.app */,
+				ECEE04E61B85AB8900FFCEFB /* NHKListTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECEE04D31B85AB8900FFCEFB /* NHKList */ = {
+			isa = PBXGroup;
+			children = (
+				ECEE04D61B85AB8900FFCEFB /* AppDelegate.swift */,
+				ECEE04D81B85AB8900FFCEFB /* ViewController.swift */,
+				ECEE04DA1B85AB8900FFCEFB /* Main.storyboard */,
+				ECEE04DD1B85AB8900FFCEFB /* Images.xcassets */,
+				ECEE04DF1B85AB8900FFCEFB /* LaunchScreen.xib */,
+				ECEE04D41B85AB8900FFCEFB /* Supporting Files */,
+			);
+			path = NHKList;
+			sourceTree = "<group>";
+		};
+		ECEE04D41B85AB8900FFCEFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECEE04D51B85AB8900FFCEFB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECEE04E91B85AB8900FFCEFB /* NHKListTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECEE04EC1B85AB8900FFCEFB /* NHKListTests.swift */,
+				ECEE04EA1B85AB8900FFCEFB /* Supporting Files */,
+			);
+			path = NHKListTests;
+			sourceTree = "<group>";
+		};
+		ECEE04EA1B85AB8900FFCEFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECEE04EB1B85AB8900FFCEFB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECEE04D01B85AB8800FFCEFB /* NHKList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECEE04F01B85AB8900FFCEFB /* Build configuration list for PBXNativeTarget "NHKList" */;
+			buildPhases = (
+				ECEE04CD1B85AB8800FFCEFB /* Sources */,
+				ECEE04CE1B85AB8800FFCEFB /* Frameworks */,
+				ECEE04CF1B85AB8800FFCEFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NHKList;
+			productName = NHKList;
+			productReference = ECEE04D11B85AB8900FFCEFB /* NHKList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECEE04E51B85AB8900FFCEFB /* NHKListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECEE04F31B85AB8900FFCEFB /* Build configuration list for PBXNativeTarget "NHKListTests" */;
+			buildPhases = (
+				ECEE04E21B85AB8900FFCEFB /* Sources */,
+				ECEE04E31B85AB8900FFCEFB /* Frameworks */,
+				ECEE04E41B85AB8900FFCEFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECEE04E81B85AB8900FFCEFB /* PBXTargetDependency */,
+			);
+			name = NHKListTests;
+			productName = NHKListTests;
+			productReference = ECEE04E61B85AB8900FFCEFB /* NHKListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECEE04C91B85AB8800FFCEFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = sonicmoov;
+				TargetAttributes = {
+					ECEE04D01B85AB8800FFCEFB = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					ECEE04E51B85AB8900FFCEFB = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = ECEE04D01B85AB8800FFCEFB;
+					};
+				};
+			};
+			buildConfigurationList = ECEE04CC1B85AB8800FFCEFB /* Build configuration list for PBXProject "NHKList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECEE04C81B85AB8800FFCEFB;
+			productRefGroup = ECEE04D21B85AB8900FFCEFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECEE04D01B85AB8800FFCEFB /* NHKList */,
+				ECEE04E51B85AB8900FFCEFB /* NHKListTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECEE04CF1B85AB8800FFCEFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECEE04DC1B85AB8900FFCEFB /* Main.storyboard in Resources */,
+				ECEE04E11B85AB8900FFCEFB /* LaunchScreen.xib in Resources */,
+				ECEE04DE1B85AB8900FFCEFB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECEE04E41B85AB8900FFCEFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECEE04CD1B85AB8800FFCEFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECEE04D91B85AB8900FFCEFB /* ViewController.swift in Sources */,
+				ECEE04D71B85AB8900FFCEFB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECEE04E21B85AB8900FFCEFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECEE04ED1B85AB8900FFCEFB /* NHKListTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECEE04E81B85AB8900FFCEFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECEE04D01B85AB8800FFCEFB /* NHKList */;
+			targetProxy = ECEE04E71B85AB8900FFCEFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECEE04DA1B85AB8900FFCEFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECEE04DB1B85AB8900FFCEFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECEE04DF1B85AB8900FFCEFB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECEE04E01B85AB8900FFCEFB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECEE04EE1B85AB8900FFCEFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECEE04EF1B85AB8900FFCEFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECEE04F11B85AB8900FFCEFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NHKList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ECEE04F21B85AB8900FFCEFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NHKList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ECEE04F41B85AB8900FFCEFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NHKListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NHKList.app/NHKList";
+			};
+			name = Debug;
+		};
+		ECEE04F51B85AB8900FFCEFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NHKListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NHKList.app/NHKList";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECEE04CC1B85AB8800FFCEFB /* Build configuration list for PBXProject "NHKList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECEE04EE1B85AB8900FFCEFB /* Debug */,
+				ECEE04EF1B85AB8900FFCEFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECEE04F01B85AB8900FFCEFB /* Build configuration list for PBXNativeTarget "NHKList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECEE04F11B85AB8900FFCEFB /* Debug */,
+				ECEE04F21B85AB8900FFCEFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECEE04F31B85AB8900FFCEFB /* Build configuration list for PBXNativeTarget "NHKListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECEE04F41B85AB8900FFCEFB /* Debug */,
+				ECEE04F51B85AB8900FFCEFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECEE04C91B85AB8800FFCEFB /* Project object */;
+}
