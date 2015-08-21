@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D41B904475FC0069F4FD235E /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA966E8598CE47B49CB75C80 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		ECEE04D71B85AB8900FFCEFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEE04D61B85AB8900FFCEFB /* AppDelegate.swift */; };
-		ECEE04D91B85AB8900FFCEFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEE04D81B85AB8900FFCEFB /* ViewController.swift */; };
+		ECEE04D91B85AB8900FFCEFB /* ChannelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEE04D81B85AB8900FFCEFB /* ChannelsViewController.swift */; };
 		ECEE04DC1B85AB8900FFCEFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECEE04DA1B85AB8900FFCEFB /* Main.storyboard */; };
 		ECEE04DE1B85AB8900FFCEFB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECEE04DD1B85AB8900FFCEFB /* Images.xcassets */; };
 		ECEE04E11B85AB8900FFCEFB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECEE04DF1B85AB8900FFCEFB /* LaunchScreen.xib */; };
 		ECEE04ED1B85AB8900FFCEFB /* NHKListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEE04EC1B85AB8900FFCEFB /* NHKListTests.swift */; };
+		ECEE04F71B85B45F00FFCEFB /* ChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEE04F61B85B45F00FFCEFB /* ChannelCell.swift */; };
+		ECEE04FB1B85B87F00FFCEFB /* BrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEE04FA1B85B87F00FFCEFB /* BrowserViewController.swift */; };
+		ECEE04FF1B85BBA000FFCEFB /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEE04FE1B85BBA000FFCEFB /* APIClient.swift */; };
+		ECEE05011B86A22800FFCEFB /* ChannelJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEE05001B86A22800FFCEFB /* ChannelJSON.swift */; };
+		ECEE05031B86AD2E00FFCEFB /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEE05021B86AD2E00FFCEFB /* EndPoints.swift */; };
+		ECEE05051B86AE1800FFCEFB /* SearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEE05041B86AE1800FFCEFB /* SearchManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +33,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A83DF863919EB458CD0C947 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		CA966E8598CE47B49CB75C80 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF5782D85357A513495E6F7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		ECEE04D11B85AB8900FFCEFB /* NHKList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NHKList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECEE04D51B85AB8900FFCEFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECEE04D61B85AB8900FFCEFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ECEE04D81B85AB8900FFCEFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECEE04D81B85AB8900FFCEFB /* ChannelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelsViewController.swift; sourceTree = "<group>"; };
 		ECEE04DB1B85AB8900FFCEFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ECEE04DD1B85AB8900FFCEFB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		ECEE04E01B85AB8900FFCEFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		ECEE04E61B85AB8900FFCEFB /* NHKListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NHKListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECEE04EB1B85AB8900FFCEFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECEE04EC1B85AB8900FFCEFB /* NHKListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NHKListTests.swift; sourceTree = "<group>"; };
+		ECEE04F61B85B45F00FFCEFB /* ChannelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelCell.swift; sourceTree = "<group>"; };
+		ECEE04FA1B85B87F00FFCEFB /* BrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowserViewController.swift; sourceTree = "<group>"; };
+		ECEE04FE1B85BBA000FFCEFB /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		ECEE05001B86A22800FFCEFB /* ChannelJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelJSON.swift; sourceTree = "<group>"; };
+		ECEE05021B86AD2E00FFCEFB /* EndPoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPoints.swift; sourceTree = "<group>"; };
+		ECEE05041B86AE1800FFCEFB /* SearchManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D41B904475FC0069F4FD235E /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +73,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C48F8969D6F0ED6CC42333A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A83DF863919EB458CD0C947 /* Pods.debug.xcconfig */,
+				CAF5782D85357A513495E6F7 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5776751FEAB79EE2ABDF703C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA966E8598CE47B49CB75C80 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ECEE04C81B85AB8800FFCEFB = {
 			isa = PBXGroup;
 			children = (
 				ECEE04D31B85AB8900FFCEFB /* NHKList */,
 				ECEE04E91B85AB8900FFCEFB /* NHKListTests */,
 				ECEE04D21B85AB8900FFCEFB /* Products */,
+				2C48F8969D6F0ED6CC42333A /* Pods */,
+				5776751FEAB79EE2ABDF703C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,7 +114,13 @@
 			isa = PBXGroup;
 			children = (
 				ECEE04D61B85AB8900FFCEFB /* AppDelegate.swift */,
-				ECEE04D81B85AB8900FFCEFB /* ViewController.swift */,
+				ECEE04FE1B85BBA000FFCEFB /* APIClient.swift */,
+				ECEE04F61B85B45F00FFCEFB /* ChannelCell.swift */,
+				ECEE04D81B85AB8900FFCEFB /* ChannelsViewController.swift */,
+				ECEE05001B86A22800FFCEFB /* ChannelJSON.swift */,
+				ECEE05021B86AD2E00FFCEFB /* EndPoints.swift */,
+				ECEE05041B86AE1800FFCEFB /* SearchManager.swift */,
+				ECEE04FA1B85B87F00FFCEFB /* BrowserViewController.swift */,
 				ECEE04DA1B85AB8900FFCEFB /* Main.storyboard */,
 				ECEE04DD1B85AB8900FFCEFB /* Images.xcassets */,
 				ECEE04DF1B85AB8900FFCEFB /* LaunchScreen.xib */,
@@ -119,9 +161,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECEE04F01B85AB8900FFCEFB /* Build configuration list for PBXNativeTarget "NHKList" */;
 			buildPhases = (
+				5EF4DF719612095682DEE05F /* Check Pods Manifest.lock */,
 				ECEE04CD1B85AB8800FFCEFB /* Sources */,
 				ECEE04CE1B85AB8800FFCEFB /* Frameworks */,
 				ECEE04CF1B85AB8800FFCEFB /* Resources */,
+				1A92071FA2407E49DBE5F6F5 /* Embed Pods Frameworks */,
+				0D4A2E825A7B055B3EA59454 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,13 +252,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D4A2E825A7B055B3EA59454 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A92071FA2407E49DBE5F6F5 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EF4DF719612095682DEE05F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ECEE04CD1B85AB8800FFCEFB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECEE04D91B85AB8900FFCEFB /* ViewController.swift in Sources */,
+				ECEE04D91B85AB8900FFCEFB /* ChannelsViewController.swift in Sources */,
+				ECEE05011B86A22800FFCEFB /* ChannelJSON.swift in Sources */,
+				ECEE04F71B85B45F00FFCEFB /* ChannelCell.swift in Sources */,
+				ECEE05031B86AD2E00FFCEFB /* EndPoints.swift in Sources */,
 				ECEE04D71B85AB8900FFCEFB /* AppDelegate.swift in Sources */,
+				ECEE04FF1B85BBA000FFCEFB /* APIClient.swift in Sources */,
+				ECEE04FB1B85B87F00FFCEFB /* BrowserViewController.swift in Sources */,
+				ECEE05051B86AE1800FFCEFB /* SearchManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +437,7 @@
 		};
 		ECEE04F11B85AB8900FFCEFB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A83DF863919EB458CD0C947 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NHKList/Info.plist;
@@ -348,6 +448,7 @@
 		};
 		ECEE04F21B85AB8900FFCEFB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAF5782D85357A513495E6F7 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NHKList/Info.plist;
@@ -409,6 +510,7 @@
 				ECEE04F21B85AB8900FFCEFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ECEE04F31B85AB8900FFCEFB /* Build configuration list for PBXNativeTarget "NHKListTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +519,7 @@
 				ECEE04F51B85AB8900FFCEFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
